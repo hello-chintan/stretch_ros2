@@ -1,0 +1,1 @@
+This is the stretch_gazebo package, compatible with ROS 2 Humble and Gazebo Fortress (LTS)
