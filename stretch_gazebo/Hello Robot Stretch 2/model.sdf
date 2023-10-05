@@ -93,8 +93,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.473531 0.479320 0.485150 1</ambient>
+          <diffuse>0.473531 0.479320 0.485150 1</diffuse>
+          <specular>0.473531 0.479320 0.485150 1</specular>
         </material>
       </visual>
       <visual name='base_link_fixed_joint_lump__caster_link_visual_1'>
@@ -106,8 +107,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.8 0.001381 0 1</ambient>
+          <diffuse>0.8 0.001381 0 1</diffuse>
+          <specular>0.8 0.001381 0 1</specular>
         </material>
       </visual>
       <visual name='base_link_fixed_joint_lump__link_aruco_left_base_visual_2'>
@@ -119,8 +121,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
         </material>
       </visual>
       <visual name='base_link_fixed_joint_lump__link_aruco_right_base_visual_3'>
@@ -132,8 +135,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
         </material>
       </visual>
       <visual name='base_link_fixed_joint_lump__laser_visual_4'>
@@ -145,8 +149,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.313726 0.313726 0.313726 1</diffuse>
-          <ambient>0.313726 0.313726 0.313726 1</ambient>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0 0 0 1</diffuse>
+          <specular>0 0 0 1</specular>
         </material>
       </visual>
       <visual name='base_link_fixed_joint_lump__link_mast_visual_5'>
@@ -158,9 +163,9 @@
           </mesh>
         </geometry>
         <material>
-          <ambient>1.0 0.723054 0.760525 1.0</ambient>
-          <diffuse>1.0 0.723054 0.760525 1.0</diffuse>
-          <specular>1.0 0.723054 0.760525 1.0</specular>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0 0 0 1</diffuse>
+          <specular>0 0 0 1</specular>
         </material>
       </visual>
       <visual name='base_link_fixed_joint_lump__link_head_visual_6'>
@@ -172,8 +177,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.114435 0.114435 0.114435 1</ambient>
+          <diffuse>0.114435 0.114435 0.114435 1</diffuse>
+          <specular>0.114435 0.114435 0.114435 1</specular>
         </material>
       </visual>
       <visual name='base_link_fixed_joint_lump__respeaker_base_visual_7'>
@@ -185,8 +191,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
         </material>
       </visual>
     </link>
@@ -240,8 +247,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.114435 0.114435 0.114435 1</ambient>
+          <diffuse>0.114435 0.114435 0.114435 1</diffuse>
+          <specular>0.114435 0.114435 0.114435 1</specular>
         </material>
       </visual>
     </link>
@@ -295,8 +303,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0 0 0 1</diffuse>
+          <specular>0 0 0 1</specular>
         </material>
       </visual>
     </link>
@@ -358,8 +367,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.114435 0.114435 0.114435 1</ambient>
+          <diffuse>0.114435 0.114435 0.114435 1</diffuse>
+          <specular>0.114435 0.114435 0.114435 1</specular>
         </material>
       </visual>
       <visual name='link_head_tilt_fixed_joint_lump__camera_link_visual_1'>
@@ -370,6 +380,11 @@
             <uri>file:///home/chintujaguar/ament_ws/install/realsense2_description/share/realsense2_description/meshes/d435.dae</uri>
           </mesh>
         </geometry>
+        <material>
+          <ambient>0.114435 0.114435 0.114435 1</ambient>
+          <diffuse>0.114435 0.114435 0.114435 1</diffuse>
+          <specular>0.114435 0.114435 0.114435 1</specular>
+        </material>
       </visual>
     </link>
     <joint name='joint_lift' type='prismatic'>
@@ -432,7 +447,7 @@
         </geometry>
       </collision>
       <visual name='link_lift_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 -0.001 0 0 0</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -440,8 +455,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.114435 0.114435 0.114435 1</ambient>
+          <diffuse>0.114435 0.114435 0.114435 1</diffuse>
+          <specular>0.114435 0.114435 0.114435 1</specular>
         </material>
       </visual>
       <visual name='link_lift_fixed_joint_lump__link_arm_l4_visual_1'>
@@ -453,8 +469,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.061246 0.061246 0.061246 1</ambient>
+          <diffuse>0.061246 0.061246 0.061246 1</diffuse>
+          <specular>0.061246 0.061246 0.061246 1</specular>
         </material>
       </visual>
       <visual name='link_lift_fixed_joint_lump__link_aruco_shoulder_visual_2'>
@@ -466,8 +483,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
         </material>
       </visual>
     </link>
@@ -521,8 +539,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.061246 0.061246 0.061246 1</ambient>
+          <diffuse>0.061246 0.061246 0.061246 1</diffuse>
+          <specular>0.061246 0.061246 0.061246 1</specular>
         </material>
       </visual>
     </link>
@@ -576,8 +595,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.061246 0.061246 0.061246 1</ambient>
+          <diffuse>0.061246 0.061246 0.061246 1</diffuse>
+          <specular>0.061246 0.061246 0.061246 1</specular>
         </material>
       </visual>
     </link>
@@ -631,8 +651,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.061246 0.061246 0.061246 1</ambient>
+          <diffuse>0.061246 0.061246 0.061246 1</diffuse>
+          <specular>0.061246 0.061246 0.061246 1</specular>
         </material>
       </visual>
     </link>
@@ -704,8 +725,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.061246 0.061246 0.061246 1</ambient>
+          <diffuse>0.061246 0.061246 0.061246 1</diffuse>
+          <specular>0.061246 0.061246 0.061246 1</specular>
         </material>
       </visual>
       <visual name='link_arm_l0_fixed_joint_lump__link_aruco_inner_wrist_visual_1'>
@@ -717,8 +739,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
         </material>
       </visual>
       <visual name='link_arm_l0_fixed_joint_lump__link_aruco_top_wrist_visual_2'>
@@ -730,8 +753,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
         </material>
       </visual>
     </link>
@@ -794,8 +818,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.036889 0.036889 0.036889 1</ambient>
+          <diffuse>0.036889 0.036889 0.036889 1</diffuse>
+          <specular>0.036889 0.036889 0.036889 1</specular>
         </material>
       </visual>
       <visual name='link_wrist_yaw_fixed_joint_lump__link_gripper_visual_1'>
@@ -807,8 +832,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.036889 0.036889 0.036889 1</ambient>
+          <diffuse>0.036889 0.036889 0.036889 1</diffuse>
+          <specular>0.036889 0.036889 0.036889 1</specular>
         </material>
       </visual>
     </link>
@@ -871,8 +897,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.473531 0.479320 0.485150 1</ambient>
+          <diffuse>0.473531 0.479320 0.485150 1</diffuse>
+          <specular>0.473531 0.479320 0.485150 1</specular>
         </material>
       </visual>
       <visual name='link_gripper_finger_left_fixed_joint_lump__link_gripper_fingertip_left_visual_1'>
@@ -884,8 +911,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.313726 0.313726 0.313726 1</diffuse>
-          <ambient>0.313726 0.313726 0.313726 1</ambient>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0 0 0 1</diffuse>
+          <specular>0 0 0 1</specular>
         </material>
       </visual>
     </link>
@@ -948,8 +976,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.473531 0.479320 0.485150 1</ambient>
+          <diffuse>0.473531 0.479320 0.485150 1</diffuse>
+          <specular>0.473531 0.479320 0.485150 1</specular>
         </material>
       </visual>
       <visual name='link_gripper_finger_right_fixed_joint_lump__link_gripper_fingertip_right_visual_1'>
@@ -961,8 +990,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.313726 0.313726 0.313726 1</diffuse>
-          <ambient>0.313726 0.313726 0.313726 1</ambient>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0 0 0 1</diffuse>
+          <specular>0 0 0 1</specular>
         </material>
       </visual>
     </link>
@@ -1016,8 +1046,9 @@
           </mesh>
         </geometry>
         <material>
-          <diffuse>0.990196 1 1 1</diffuse>
-          <ambient>0.990196 1 1 1</ambient>
+          <ambient>0.114435 0.114435 0.114435 1</ambient>
+          <diffuse>0.114435 0.114435 0.114435 1</diffuse>
+          <specular>0.114435 0.114435 0.114435 1</specular>
         </material>
       </visual>
     </link>
