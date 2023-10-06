@@ -28,7 +28,7 @@
             <input type="ignition.msgs.Int32" topic="/keyboard/keypress">
                 <match field="data">16777235</match>
             </input>    
-            <output type="ignition.msgs.Twist" topic="/cmd_vel">
+            <output type="ignition.msgs.Twist" topic="/stretch/cmd_vel">
                 linear: {x: 0.5}, angular: {z: 0.0}
             </output>
         </plugin>
@@ -38,7 +38,7 @@
             <input type="ignition.msgs.Int32" topic="/keyboard/keypress">
                 <match field="data">16777237</match>
             </input>
-            <output type="ignition.msgs.Twist" topic="/cmd_vel">
+            <output type="ignition.msgs.Twist" topic="/stretch/cmd_vel">
                 linear: {x: -0.5}, angular: {z: 0.0}
             </output>
         </plugin>
